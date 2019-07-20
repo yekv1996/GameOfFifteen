@@ -1,0 +1,56 @@
+﻿<Window x:Class="GameOfFifteen.Solver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfFifteen.Solver"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500">
+    <Grid Grid.Column="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Click="ButtonOpenFile_click" Content="Open file" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+            <Button  Grid.Row="1" Grid.Column="0" Click="ButtonPlayer_click" Content="Player" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+            <TextBox Name="textBox_interval" Text="1" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Name="label1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="0" Grid.Column="1" Name="label2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="0" Grid.Column="2" Name="label3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="0" Grid.Column="3" Name="label4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="0" Name="label5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="1" Name="label6" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="2" Name="label7" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="1" Grid.Column="3" Name="label8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="0" Name="label9" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="1" Name="label10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="2" Name="label11" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="3" Name="label12" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="0" Name="label13" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="1" Name="label14" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="2" Name="label15" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="3" Name="label16" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Window>

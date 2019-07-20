@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfFifteen.Shuffler", "GameOfFifteen.Shuffler\GameOfFifteen.Shuffler.csproj", "{67B378AC-D11C-4F06-8275-E0E7ECC4A083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfFifteen.Solver", "GameOfFifteen.Solver\GameOfFifteen.Solver.csproj", "{23F21D1A-B638-42A8-ABE8-3618EDE67A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B378AC-D11C-4F06-8275-E0E7ECC4A083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B378AC-D11C-4F06-8275-E0E7ECC4A083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B378AC-D11C-4F06-8275-E0E7ECC4A083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B378AC-D11C-4F06-8275-E0E7ECC4A083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F21D1A-B638-42A8-ABE8-3618EDE67A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F21D1A-B638-42A8-ABE8-3618EDE67A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F21D1A-B638-42A8-ABE8-3618EDE67A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F21D1A-B638-42A8-ABE8-3618EDE67A69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9BF632D-8508-4BDC-A9DF-6D2D2778C48B}
+	EndGlobalSection
+EndGlobal
